@@ -1,51 +1,53 @@
-export const dataHeader = [
+import {HouseLine, AddressBook, BookOpen, Newspaper, Briefcase, Trophy, ArrowSquareOut} from 'phosphor-react'
+
+export const MockModalHeader = [
     {
         id: 1,
         classNav: 'nav__link active-link',
         ref: '#home',
         text: 'Home',
-        icon: 'bx bx-home nav__icon'
+        icon: <HouseLine></HouseLine>
     },
     {
         id: 2,
         classNav: 'nav__link',
         ref: '#profile',
         text: 'Perfil',
-        icon: 'bx bx-user nav__icon'
+        icon: <AddressBook />
     },
     {
         id: 3,
         classNav: 'nav__link',
         ref: '#education',
         text: 'Educação',
-        icon: 'bx bx-book nav__icon'
+        icon: <BookOpen />
     },
     {
         id: 4,
         classNav: 'nav__link',
         ref: '#skills',
         text: 'Skills',
-        icon: 'bx bx-receipt nav__icon'
+        icon: <Newspaper />
     },
     {
         id: 5,
         classNav: 'nav__link',
         ref: '#experience',
         text: 'Experiencias',
-        icon: 'bx bx-briefcase-alt nav__icon'
+        icon: <Briefcase />
     },
     {
         id: 6,
         classNav: 'nav__link',
         ref: '#certificates',
         text: 'Certificados',
-        icon: 'bx bx-award nav__icon'
+        icon: <Trophy />
     },
     {
         id: 7,
         classNav: 'nav__link',
         ref: '#references',
         text: 'Referencias',
-        icon: 'bx bx-link-external nav__icon'
+        icon: <ArrowSquareOut />
     }
 ] 

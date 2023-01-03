@@ -1,11 +1,9 @@
-import './App.css';
-import Header from './app/pages/header/header';
+import './styles/global.css'
+import { Body } from './pages/Body'
 
 function App() {
   return (
-    <body>
-      <Header></Header>
-    </body>
+    <Body></Body>
   );
 }
 
