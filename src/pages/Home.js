@@ -28,7 +28,7 @@ export function Home(){
                     </HomeInformation>
 
                     <HomeInformation>
-                        <EnvelopeSimple className='home__icon'></EnvelopeSimple> andrezanascimentodesousa@gmail.com
+                        <EnvelopeSimple className='home__icon'></EnvelopeSimple> example@email.com
                     </HomeInformation>
                 </div>
             </div>
