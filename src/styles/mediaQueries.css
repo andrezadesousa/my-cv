@@ -47,10 +47,6 @@
   .home__container {
     gap: 1.5rem;
   }
-
-  .home__button-movil {
-    display: none;
-  }
   
   #interests__container {
     grid-template-columns: repeat(4, max-content);

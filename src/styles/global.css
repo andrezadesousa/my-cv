@@ -3,12 +3,12 @@
 :root{
     --header-height: 3rem;
 
-    --title-color: #0B0A0A;
-    --text-color: #403A3A;
+    --title-color: #f2f2f2;
+    --text-color: #bfbfbf;
     --text-color-leight: #707070;
-    --container-color: #FAFAFA;
-    --container-color-alt: #F0EFEF;
-    --body-color: #FCFCFC;
+    --container-color: #212121;
+    --container-color-alt: #181616;
+    --body-color: #2b2b2b;
 
     --body-font: 'Poppins', sans-serif;
     --h1-font-size: 1.5rem;

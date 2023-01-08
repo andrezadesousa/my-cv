@@ -1,4 +1,4 @@
-import {HouseLine, AddressBook, BookOpen, Newspaper, Briefcase, Trophy, ArrowSquareOut} from 'phosphor-react'
+import {HouseLine, AddressBook, BookOpen, Newspaper, Briefcase, ArrowSquareOut} from 'phosphor-react'
 
 export const MockModalHeader = [
     {
@@ -38,13 +38,6 @@ export const MockModalHeader = [
     },
     {
         id: 6,
-        classNav: 'nav__link',
-        ref: '#certificates',
-        text: 'Certificados',
-        icon: <Trophy />
-    },
-    {
-        id: 7,
         classNav: 'nav__link',
         ref: '#references',
         text: 'Referencias',
