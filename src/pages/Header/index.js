@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import {ModalHeader} from "../components/ModalHeader";
+import {ModalHeader} from "../../components/ModalHeader";
 import {DiamondsFour, XCircle} from 'phosphor-react'
-import '../styles/header.css'
+import './styles.css'
 
 export function Header() {
   const [modalOpen, setModalOpen] = useState(false);

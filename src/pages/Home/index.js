@@ -1,7 +1,7 @@
-import homeImage from '../assets/image/homeImage.jpg'
+import homeImage from '../../assets/image/homeImage.jpg'
 import {MapPin, UserCircle, EnvelopeSimple} from 'phosphor-react'
-import { HomeInformation } from '../components/HomeInformation'
-import '../styles/home.css'
+import { HomeInformation } from '../../components/HomeInformation/index'
+import './styles.css'
 
 export function Home(){
     return(
