@@ -2,6 +2,11 @@
     padding: 1.5rem 0;
 }
 
+.bd-grid{
+    display: grid;
+    gap: 1.5rem;
+}
+
 .home{
     position: relative;
 }
@@ -10,7 +15,7 @@
     gap: 3rem;
 }
 
-.home__data{
+#home__data{
     gap: .5rem;
     text-align: center;
 }
@@ -32,7 +37,7 @@
     margin-bottom: var(--mb-1);
 }
 
-.home__address{
+#home__address{
     gap: 1rem;
 }
 

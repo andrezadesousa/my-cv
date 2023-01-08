@@ -1,13 +1,17 @@
 import homeImage from '../../assets/image/homeImage.jpg'
+
 import {MapPin, UserCircle, EnvelopeSimple} from 'phosphor-react'
+
 import { HomeInformation } from '../../components/HomeInformation/index'
+import { BgGrid } from "../../components/BdGrid/index";
+
 import './styles.css'
 
 export function Home(){
     return(
         <section className="home" id="home">
             <div className="home__container section bd-grid">
-                <div className="home__data bd-grid">
+                <BgGrid id="home__data">
                     <img src={homeImage} className='home__img' alt='Imagem de Perfil'></img>
                     <h1 className='home__title'>ANDREZA <b>SOUSA</b></h1>
                     <h2 className='home__profession'>Desenvolvedora Front-end Jr</h2>
@@ -16,9 +20,9 @@ export function Home(){
                     <div>
                         <a download="" href="/" className="home__button-movil">Download</a>
                     </div>
-                </div>
+                </BgGrid>
 
-                <div className='home__address bd-grid'>
+                <BgGrid id='home__address'>
                     <HomeInformation>
                         <MapPin className='home__icon'></MapPin>São Paulo - Brasil
                     </HomeInformation>
@@ -30,7 +34,7 @@ export function Home(){
                     <HomeInformation>
                         <EnvelopeSimple className='home__icon'></EnvelopeSimple> example@email.com
                     </HomeInformation>
-                </div>
+                </BgGrid>
             </div>
         </section>
     )

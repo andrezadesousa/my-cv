@@ -1,6 +1,7 @@
 import { Header } from "./Header/index";
 import { Home } from "./Home/index";
 import { SocialMedia } from "./SocialMedia";
+import { Profile } from "./Profile";
 
 export function Body() {
   return (
@@ -11,6 +12,7 @@ export function Body() {
           <div className="resume__left">
             <Home></Home>
             <SocialMedia></SocialMedia>
+            <Profile></Profile>
           </div>
         </div>
       </main>
