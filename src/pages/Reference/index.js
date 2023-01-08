@@ -7,7 +7,7 @@ import { BgGrid } from "../../components/BdGrid/index";
 export function References() {
   return (
     <Section id="references">
-      <SectionTitle>Referencias</SectionTitle>
+      <SectionTitle>Referência</SectionTitle>
       <BgGrid id="references__container">
         <BgGrid id="references__content">
           <span className="references__subtitle">
