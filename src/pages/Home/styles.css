@@ -1,3 +1,7 @@
+.section{
+    padding: 1.5rem 0;
+}
+
 .home{
     position: relative;
 }
@@ -30,12 +34,6 @@
 
 .home__address{
     gap: 1rem;
-}
-
-.home__information{
-    display: flex;
-    align-items: center;
-    font-size: var(--small-font-size);
 }
 
 .home__icon{
