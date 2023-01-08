@@ -14,8 +14,8 @@ export function References() {
             Líder Técnico | Desenvolvedor Fullstack Sênior
           </span>
           <h3 className="references__title">Henrique Fantini</h3>
-          <ul className="references__contact">
-            <li className="references__description">
+          <ul className="references__description">
+            <li>
               Andreza é uma profissional em plena ascensão e que se mostrou
               muito valiosa logo que começamos a trabalhar em conjunto. Recheada
               de soft skills apresenta uma constante sede de conhecimento e

@@ -15,8 +15,7 @@
     margin-right: auto;
   }
 
-  .l-header,
-  .scrolltop {
+  .l-header{
     display: none;
   }
 
@@ -52,12 +51,8 @@
   .home__button-movil {
     display: none;
   }
-
-  .references__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .interests__container {
+  
+  #interests__container {
     grid-template-columns: repeat(4, max-content);
     column-gap: 3.5rem;
   }

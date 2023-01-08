@@ -5,8 +5,6 @@ import { SectionTitle } from "../../components/SectionTitle/index";
 import { BgGrid } from "../../components/BdGrid/index";
 import { InterestsData } from "../../components/InterestsData/index";
 
-import {Headphones} from 'phosphor-react'
-
 export function Interests() {
   return (
     <Section id="interests">
