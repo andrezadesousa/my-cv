@@ -1,4 +1,5 @@
 import './styles/global.css'
+import './styles/mediaQueries.css'
 import { Body } from './pages/index'
 
 function App() {

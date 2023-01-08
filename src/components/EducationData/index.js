@@ -1,15 +1,14 @@
 import "./styles.css";
 
 import { BgGrid } from "../../components/BdGrid/index";
+import { MarkingTime } from "../../components/MarkingTime/index";
+import { MarkingTimeEnd } from "../../components/MakingTimeEnd/index";
 
 export function EducationData() {
   return (
     <>
     <div className="education__content">
-      <div className="education__time">
-        <div className="education__rounder"></div>
-        <div className="education__line"></div>
-      </div>
+      <MarkingTime></MarkingTime>
       <BgGrid id="education__data">
         <h3 className="education__title">Gestão da TI</h3>
         <span className="education__studies">Fatec Barueri</span>
@@ -18,10 +17,7 @@ export function EducationData() {
     </div>
 
     <div className="education__content">
-      <div className="education__time">
-        <div className="education__rounder"></div>
-        <div className="education__line"></div>
-      </div>
+      <MarkingTime></MarkingTime>
       <BgGrid id="education__data">
         <h3 className="education__title">Ignite Lab | ReactJs</h3>
         <span className="education__studies">Rocketseat</span>
@@ -30,10 +26,7 @@ export function EducationData() {
     </div>
 
     <div className="education__content">
-      <div className="education__time">
-        <div className="education__rounder"></div>
-        <div className="education__line"></div>
-      </div>
+      <MarkingTime></MarkingTime>
       <BgGrid id="education__data">
         <h3 className="education__title">Next Level Together | ReactJs</h3>
         <span className="education__studies">Rocketseat</span>
@@ -42,10 +35,7 @@ export function EducationData() {
     </div>
 
     <div className="education__content">
-      <div className="education__time">
-        <div className="education__rounder"></div>
-        {/* <div className="education__line"></div> */}
-      </div>
+      <MarkingTimeEnd></MarkingTimeEnd>
       <BgGrid id="education__data">
         <h3 className="education__title">FrontStart</h3>
         <span className="education__studies">Isadora Stangarlin</span>

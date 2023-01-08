@@ -1,0 +1,12 @@
+.experience__content {
+  display: flex;
+}
+
+.experience__data {
+  gap: 0.5rem;
+}
+
+.experience__title{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+}

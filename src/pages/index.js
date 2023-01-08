@@ -5,6 +5,8 @@ import { Profile } from "./Profile";
 import { Education } from "./Education";
 import { Skills } from "./Skills";
 import { Experience } from "./Experience";
+import { References } from "./Reference";
+import { Interests } from "./Interests";
 
 export function Body() {
   return (
@@ -24,6 +26,8 @@ export function Body() {
 
         <div className="resume__right">
           <Experience></Experience>
+          <References></References>
+          <Interests></Interests>
         </div>
       </main>
     </body>
