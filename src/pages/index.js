@@ -1,3 +1,6 @@
+import '../styles/global.css'
+import '../styles/mediaQueries.css'
+
 import { Header } from "./Header/index";
 import { Home } from "./Home/index";
 import { SocialMedia } from "./SocialMedia";
@@ -13,7 +16,6 @@ export function Body() {
     <body>
       <Header></Header>
       <main className="l-main bd-container">
-
         <div className="resume">
           <div className="resume__left">
             <Home></Home>
@@ -22,12 +24,12 @@ export function Body() {
             <Education></Education>
             <Skills></Skills>
           </div>
-        </div>
 
-        <div className="resume__right">
-          <Experience></Experience>
-          <References></References>
-          <Interests></Interests>
+          <div className="resume__right">
+            <Experience></Experience>
+            <References></References>
+            <Interests></Interests>
+          </div>
         </div>
       </main>
     </body>
