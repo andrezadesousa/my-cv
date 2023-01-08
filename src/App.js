@@ -1,5 +1,5 @@
 import './styles/global.css'
-import { Body } from './pages/Body'
+import { Body } from './pages/index'
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { MockModalHeader } from "../mock/MockModalHeader";
+import { MockModalHeader } from "../../mock/MockModalHeader";
 
 export function ModalHeader() {
   return (
