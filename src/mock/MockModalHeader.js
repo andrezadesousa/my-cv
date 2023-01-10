@@ -1,6 +1,6 @@
 import {HouseLine, AddressBook, BookOpen, Newspaper, Briefcase, ArrowSquareOut} from 'phosphor-react'
 
-export const MockModalHeader = [
+export const NavLinks = [
     {
         id: 1,
         classNav: 'nav__link active-link',
@@ -33,14 +33,14 @@ export const MockModalHeader = [
         id: 5,
         classNav: 'nav__link',
         ref: '#experience',
-        text: 'Experiencias',
+        text: 'Experiências',
         icon: <Briefcase />
     },
     {
         id: 6,
         classNav: 'nav__link',
         ref: '#references',
-        text: 'Referencias',
+        text: 'Referências',
         icon: <ArrowSquareOut />
     }
 ] 

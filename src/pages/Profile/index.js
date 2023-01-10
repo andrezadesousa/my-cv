@@ -8,9 +8,9 @@ export function Profile() {
     <Section id="profile">
       <SectionTitle>Profile</SectionTitle>
       <p className="profile__description">
-        Graduada em Gestão da Tecnologia da Informação, há um ano e oito meses
-        na área da tecnologia. Inicialmente, atuei como BA e posterirmente autando como desenvolvedora. Alocada em
-        diferentes projetos, tanto mobile quanto web, tendo a oportunidade de
+        Sou graduada em Gestão da Tecnologia da Informação, há um ano e oito meses
+        na área da tecnologia. Iniciei como BA, e posteriormente, migrei para o desenvolvimento. Alocada em
+        diversos projetos, tanto mobile quanto web, tendo a oportunidade de trabalhar e
         conhecer novas tecnologias.
       </p>
     </Section>

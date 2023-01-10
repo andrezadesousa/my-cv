@@ -1,17 +1,17 @@
 import React from "react";
-import { MockModalHeader } from "../../mock/MockModalHeader";
+import { NavLinks } from "../../mock/MockModalHeader";
 import './styles.css'
 
 export function ModalHeader() {
   return (
     <div className="nav__menu" id="nav-menu">
       <ul className="nav__list">
-        {MockModalHeader.map(({ id, classNav, ref, text, icon }) => {
+        {NavLinks.map((NavLink) => {
           return (
-            <li key={id} className="nav__item">
-              <a href={ref} className={classNav}>
-                <i className="nav__icon">{icon}</i>
-                {text}
+            <li key={NavLink.id} className="nav__item">
+              <a href={NavLink.ref} className={NavLink.classNav}>
+                <i className="nav__icon">{NavLink.icon}</i>
+                {NavLink.text}
               </a>
             </li>
           );

@@ -1,4 +1,4 @@
-export const MockSkillsData = [
+export const MySkills = [
     {
         id: 1,
         skills: 'Html5'
