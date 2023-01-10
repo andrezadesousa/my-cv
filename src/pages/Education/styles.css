@@ -1,12 +1,10 @@
-#education__data {
-  gap: 0.5rem;
-}
-
-.education__title {
+.education-title {
   font-size: var(--h3-font-size);
+  text-align: center;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
 }
 
-.education__studies {
-  font-size: var(--small-font-size);
-  color: var(--title-color);
+.education-studies {
+  text-align: center;
 }

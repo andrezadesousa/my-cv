@@ -1,14 +1,14 @@
 import "./styles.css";
 
 import { BgGrid } from "../../components/BgGrid/index";
-import { MarkingTime } from "../../components/MarkingTime/index";
-import { MarkingTimeEnd } from "../../components/MakingTimeEnd/index";
+import { MarkingLine } from "../../components/MarkingLine/index";
+import { MarkingLineEnd } from "../../components/MakingLineEnd/index";
 
 export function ExperienceData() {
   return (
     <>
       <div className="experience__content">
-        <MarkingTime></MarkingTime>
+        <MarkingLine></MarkingLine>
         <BgGrid id="experience__data">
           <h3 className="experience__title">Desenvolvedora front-end Jr</h3>
           <span className="experience__company">Nov 2022 - Momento</span>
@@ -21,7 +21,7 @@ export function ExperienceData() {
       </div>
 
       <div className="experience__content">
-        <MarkingTime></MarkingTime>
+        <MarkingLine></MarkingLine>
         <BgGrid id="experience__data">
           <h3 className="experience__title">Desenvolvedora front-end Jr</h3>
           <span className="experience__company">Jun 2022 - Nov 2022</span>
@@ -34,7 +34,7 @@ export function ExperienceData() {
       </div>
 
       <div className="experience__content">
-        <MarkingTime></MarkingTime>
+        <MarkingLine></MarkingLine>
         <BgGrid id="experience__data">
           <h3 className="experience__title">Business Analyst Jr</h3>
           <span className="experience__company">Dez 2021 - Mai 2022</span>
@@ -50,7 +50,7 @@ export function ExperienceData() {
       </div>
 
       <div className="experience__content">
-        <MarkingTimeEnd></MarkingTimeEnd>
+        <MarkingLineEnd></MarkingLineEnd>
         <BgGrid id="experience__data">
           <h3 className="experience__title">Desenvolvedora back end Trainee</h3>
           <span className="experience__company">Mai 2021 - Dez 2021</span>

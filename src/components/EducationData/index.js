@@ -1,14 +1,14 @@
 import "./styles.css";
 
 import { BgGrid } from "../../components/BgGrid/index";
-import { MarkingTime } from "../../components/MarkingTime/index";
-import { MarkingTimeEnd } from "../../components/MakingTimeEnd/index";
+import { MarkingLine } from "../../components/MarkingLine/index";
+import { MarkingLineEnd } from "../../components/MarkingLineEnd/index";
 
 export function EducationData() {
   return (
     <>
     <div className="education__content">
-      <MarkingTime></MarkingTime>
+      <MarkingLine></MarkingLine>
       <BgGrid id="education__data">
         <h3 className="education__title">Gestão da TI</h3>
         <span className="education__studies">Fatec Barueri</span>
@@ -17,7 +17,7 @@ export function EducationData() {
     </div>
 
     <div className="education__content">
-      <MarkingTime></MarkingTime>
+      <MarkingLine></MarkingLine>
       <BgGrid id="education__data">
         <h3 className="education__title">Ignite Lab | ReactJs</h3>
         <span className="education__studies">Rocketseat</span>
@@ -26,7 +26,7 @@ export function EducationData() {
     </div>
 
     <div className="education__content">
-      <MarkingTimeEnd></MarkingTimeEnd>
+      <MarkingLineEnd />
       <BgGrid id="education__data">
         <h3 className="education__title">Next Level Together | ReactJs</h3>
         <span className="education__studies">Rocketseat</span>

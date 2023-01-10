@@ -1,17 +1,17 @@
 import "./styles.css";
 
 import { EducationContent } from "../EducationContent/index"
-import { MarkingTime } from "../../components/MarkingTime/index";
+import { MarkingLine } from "../../components/MarkingLine/index";
 import { BgGrid } from "../BgGrid/index";
 import { EducationTitle } from "../EducationTitle";
-import { MarkingTimeEnd } from "../../components/MakingTimeEnd/index";
+import { MarkingLineEnd } from "../../components/MakingLineEnd/index";
 
 export function LearnData() {
  
   return (
     <>
     <EducationContent>
-      <MarkingTime />
+      <MarkingLine />
       <BgGrid id="learn__data">
         <EducationTitle title="Trilha Conectar" />
         <span className="learn__studies">Rocketseat</span>
@@ -20,7 +20,7 @@ export function LearnData() {
     </EducationContent>
 
     <EducationContent>
-      <MarkingTimeEnd />
+      <MarkingLineEnd />
       <BgGrid id="learn__data">
         <EducationTitle title="FrontStart" />
         <span className="learn__studies">Isadora Stangarlin</span>
