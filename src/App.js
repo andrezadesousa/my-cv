@@ -1,3 +1,5 @@
+import './styles/global.css'
+
 import { Body } from './pages/index'
 
 function App() {

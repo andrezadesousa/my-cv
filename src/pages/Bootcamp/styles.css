@@ -1,0 +1,16 @@
+.bootcamp__content {
+  display: flex;
+}
+
+#bootcamp__data {
+  gap: 0.5rem;
+}
+
+.bootcamp__title{
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+}
+
+.bootcamp__link{
+  color: var(--title-color);
+}
