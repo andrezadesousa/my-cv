@@ -1,32 +1,31 @@
 import "./styles.css";
 
-import { EducationContent } from "../EducationContent/index"
+import { LearnContent } from "../LearnContent/index"
 import { MarkingLine } from "../../components/MarkingLine/index";
 import { BgGrid } from "../BgGrid/index";
-import { EducationTitle } from "../EducationTitle";
+import { LearnTitle } from "../LearnTitle";
 import { MarkingLineEnd } from "../../components/MakingLineEnd/index";
 
 export function LearnData() {
- 
   return (
     <>
-    <EducationContent>
+    <LearnContent>
       <MarkingLine />
       <BgGrid id="learn__data">
-        <EducationTitle title="Trilha Conectar" />
+        <LearnTitle title="Trilha Conectar" />
         <span className="learn__studies">Rocketseat</span>
         <span className="learn__year">Jan/2023 - estudando</span>
       </BgGrid>
-    </EducationContent>
+    </LearnContent>
 
-    <EducationContent>
+    <LearnContent>
       <MarkingLineEnd />
       <BgGrid id="learn__data">
-        <EducationTitle title="FrontStart" />
+        <LearnTitle title="FrontStart" />
         <span className="learn__studies">Isadora Stangarlin</span>
         <span className="learn__year">Jan/2023 - estudando</span>
       </BgGrid>
-    </EducationContent>
+    </LearnContent>
     </>
   );
 }
