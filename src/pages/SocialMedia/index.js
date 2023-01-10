@@ -7,7 +7,7 @@ import {LinkedinLogo, GithubLogo} from 'phosphor-react'
 export function SocialMedia() {
   return (
     <Section class="social">
-      <SectionTitle>Social</SectionTitle>
+      <SectionTitle title="Social" />
       <BgGrid id="social__container">
         <a href="https://www.linkedin.com/in/sousa-andreza/" target="__blank" className="social__link">
             <LinkedinLogo className="social__icon"/>Meu Linkedin

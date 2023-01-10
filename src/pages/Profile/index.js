@@ -6,7 +6,7 @@ import { SectionTitle } from "../../components/SectionTitle/index";
 export function Profile() {
   return (
     <Section id="profile">
-      <SectionTitle>Profile</SectionTitle>
+      <SectionTitle title="Profile" />
       <p className="profile__description">
         Sou graduada em Gestão da Tecnologia da Informação, há um ano e oito meses
         na área da tecnologia. Iniciei como BA, e posteriormente, migrei para o desenvolvimento. Alocada em

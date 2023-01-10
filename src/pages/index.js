@@ -24,7 +24,6 @@ export function Body() {
             <Profile></Profile>
             <Education></Education>
             <Learn></Learn>
-            {/* <Skills></Skills> */}
           </div>
 
           <div className="resume__right">

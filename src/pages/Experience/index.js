@@ -8,7 +8,7 @@ import { ExperienceData } from "../../components/ExperienceData/index";
 export function Experience() {
   return (
     <Section id="experience">
-      <SectionTitle>Experiência</SectionTitle>
+      <SectionTitle title="Experiência" />
       <BgGrid id="experience__container">
         <ExperienceData></ExperienceData>
       </BgGrid>

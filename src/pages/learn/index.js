@@ -8,7 +8,7 @@ import { LearnData } from "../../components/LearnData";
 export function Learn() {
   return (
     <Section id="education">
-      <SectionTitle>Estudando</SectionTitle>
+      <SectionTitle title="Estudando"/>
       <BgGrid id="education__container">
         <LearnData />
       </BgGrid>

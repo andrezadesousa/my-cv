@@ -9,7 +9,7 @@ import { MySkills } from "../../mock/MockSkillsData";
 export function Skills() {
   return (
     <Section id="skills">
-      <SectionTitle>Skills</SectionTitle>
+      <SectionTitle title="Skills" />
       <BgGrid id="skills__content">
         {MySkills.map((MySkill) => {
           return (

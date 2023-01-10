@@ -8,7 +8,7 @@ import { InterestsData } from "../../components/InterestsData/index";
 export function Interests() {
   return (
     <Section id="interests">
-      <SectionTitle>Interesses</SectionTitle>
+      <SectionTitle title="Interesses" />
       <BgGrid id="interests__container">
         <InterestsData />
       </BgGrid>
