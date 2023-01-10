@@ -10,7 +10,7 @@ export function Learn() {
     <Section id="education">
       <SectionTitle>Estudando</SectionTitle>
       <BgGrid id="education__container">
-        <LearnData></LearnData>
+        <LearnData />
       </BgGrid>
     </Section>
   );
