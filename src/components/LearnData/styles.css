@@ -1,29 +1,3 @@
-.learn__content{
-  display: flex;
-}
-
-.learn__time{
-  padding-right: 1rem;
-}
-
-.learn__rounder{
-  position: relative;
-  display: block;
-  width: 16px;
-  height: 16px;
-  background-color: #707070;
-  border-radius: 50%;
-  margin-top: 0.25rem;
-}
-
-.learn__line{
-  display: block;
-  width: 2px;
-  height: 110%;
-  background-color: #707070;
-  transform: translate(7px, 0);
-}
-
 #learn__data{
   gap: 0.5rem;
 }
