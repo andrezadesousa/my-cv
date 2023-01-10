@@ -3,7 +3,7 @@ import homeImage from "../../assets/image/homeImage.jpg";
 import { MapPin, UserCircle } from "phosphor-react";
 
 import { HomeInformation } from "../../components/HomeInformation/index";
-import { BgGrid } from "../../components/BdGrid/index";
+import { BgGrid } from "../../components/BgGrid/index";
 
 import "./styles.css";
 

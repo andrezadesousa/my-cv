@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import { BgGrid } from "../../components/BdGrid/index";
+import { BgGrid } from "../../components/BgGrid/index";
 import { MarkingTime } from "../../components/MarkingTime/index";
 import { MarkingTimeEnd } from "../../components/MakingTimeEnd/index";
 
