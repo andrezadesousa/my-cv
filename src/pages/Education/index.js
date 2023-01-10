@@ -1,3 +1,5 @@
+import './styles.css'
+
 import { Section } from "../../components/Section/index";
 import { SectionTitle } from "../../components/SectionTitle/index";
 import { BgGrid } from "../../components/BgGrid/index";
@@ -10,10 +12,10 @@ export function Education() {
       <SectionTitle title="Educação" />
       <BgGrid>
         <EducationContent>
-          <BgGrid id="learn__data">
+          <BgGrid id="education__data">
             <EducationTitle title="Gestão da Tecnologia da Informação" />
-            <span className="learn__studies">Fatec Barueri</span>
-            <span className="learn__year">2018 - 2021</span>
+              <span className="education__studies">Fatec Barueri</span>
+              <span className="education__year">2018 - 2021</span>
           </BgGrid>
         </EducationContent>
       </BgGrid>

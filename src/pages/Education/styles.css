@@ -1,0 +1,12 @@
+#education__data {
+  gap: 0.5rem;
+}
+
+.education__title {
+  font-size: var(--h3-font-size);
+}
+
+.education__studies {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
