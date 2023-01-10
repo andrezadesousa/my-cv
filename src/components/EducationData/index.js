@@ -26,20 +26,11 @@ export function EducationData() {
     </div>
 
     <div className="education__content">
-      <MarkingTime></MarkingTime>
+      <MarkingTimeEnd></MarkingTimeEnd>
       <BgGrid id="education__data">
         <h3 className="education__title">Next Level Together | ReactJs</h3>
         <span className="education__studies">Rocketseat</span>
         <span className="education__year">2023 - 2023</span>
-      </BgGrid>
-    </div>
-
-    <div className="education__content">
-      <MarkingTimeEnd></MarkingTimeEnd>
-      <BgGrid id="education__data">
-        <h3 className="education__title">FrontStart</h3>
-        <span className="education__studies">Isadora Stangarlin</span>
-        <span className="education__year">2023 - estudando</span>
       </BgGrid>
     </div>
     </>

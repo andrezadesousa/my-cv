@@ -6,6 +6,7 @@ import { Home } from "./Home/index";
 import { SocialMedia } from "./SocialMedia";
 import { Profile } from "./Profile";
 import { Education } from "./Education";
+import { Learn } from './learn';
 import { Skills } from "./Skills";
 import { Experience } from "./Experience";
 import { References } from "./Reference";
@@ -22,11 +23,13 @@ export function Body() {
             <SocialMedia></SocialMedia>
             <Profile></Profile>
             <Education></Education>
-            <Skills></Skills>
+            <Learn></Learn>
+            {/* <Skills></Skills> */}
           </div>
 
           <div className="resume__right">
             <Experience></Experience>
+            <Skills></Skills>
             <References></References>
             <Interests></Interests>
           </div>
