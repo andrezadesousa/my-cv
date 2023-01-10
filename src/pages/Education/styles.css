@@ -1,10 +1,10 @@
-.education-title {
+.education__title {
   font-size: var(--h3-font-size);
   text-align: center;
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
 
-.education-studies {
+.education__studies {
   text-align: center;
 }

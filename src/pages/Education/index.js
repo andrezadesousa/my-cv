@@ -7,13 +7,13 @@ export function Education() {
   return (
     <Section id="education">
       <SectionTitle title="Educação" />
-      <p className="education-title">
+      <p className="education__title">
         Gestão da Tecnologia da Informação
       </p>
-      <p className="education-studies">
+      <p className="education__studies">
         Fatec Barueri
       </p>
-      <p className="education-studies">
+      <p className="education__studies">
         2021 - 2022
       </p>
     </Section>
