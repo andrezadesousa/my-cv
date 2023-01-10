@@ -1,10 +1,16 @@
 import './styles/global.css'
 
-import { Body } from './pages/index'
+import { Header } from './pages/Header';
+import { Resume } from './pages/Resume';
 
 function App() {
   return (
-    <Body></Body>
+    <body>
+      <Header />
+      <main className="l-main bd-container">
+        <Resume />
+      </main>
+    </body>
   );
 }
 
