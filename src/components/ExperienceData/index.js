@@ -11,11 +11,12 @@ export function ExperienceData() {
         <MarkingLine></MarkingLine>
         <BgGrid id="experience__data">
           <h3 className="experience__title">Desenvolvedora front-end Jr</h3>
-          <span className="experience__company">Nov 2022 - Momento</span>
+          <span className="experience__company">Nov 2022 - Jan 2023</span>
           <p className="experience__description">
-            Atualmente, alocada em um cliente internacional (Portugal). Atuando
-            em um projeto web como desenvolvedora Front-end com as tecnologias :
-            Angular, Typescript e C#. Além de utilizar a metodologia ágil Scrum.
+            Atuei em um projeto internacional (Marinha de Portugal). Como
+            desenvolvedora Front-end Jr era responsável por desenvolver os
+            layouts das telas utilizando as tecnologias : Angular, DevExtremeJs
+            e Typescript e C#. Além de utilizar a metodologia ágil Scrum.
           </p>
         </BgGrid>
       </div>
@@ -26,9 +27,10 @@ export function ExperienceData() {
           <h3 className="experience__title">Desenvolvedora front-end Jr</h3>
           <span className="experience__company">Jun 2022 - Nov 2022</span>
           <p className="experience__description">
-            Atuei como desenvolvedora Front-end em um projeto mobile e web que
-            utilizavam as tecnologias React e React Native. Além de utilizar a
-            metodologia ágil Scrum.
+            Atuei como desenvolvedora Front-end Jr em um projeto mobile que
+            utilizavam as tecnologias ReactJs. Além de utilizar a metodologia
+            ágil Scrum. Eu era uma das responsáveis por dar manutenção ao app e
+            acrescentar novas funcionalidades
           </p>
         </BgGrid>
       </div>
