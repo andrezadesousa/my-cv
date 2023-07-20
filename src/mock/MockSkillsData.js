@@ -1,7 +1,7 @@
 export const MySkills = [
     {
         id: 1,
-        skills: 'Html5'
+        skills: 'Html 5'
     },
     {
         id: 2,
@@ -13,10 +13,18 @@ export const MySkills = [
     },
     {
         id: 4,
-        skills: 'ReactJs'
+        skills: 'Typescript'
     },
     {
         id: 5,
+        skills: 'NodeJS'
+    },
+    {
+        id: 6,
+        skills: 'ReactJs'
+    },
+    {
+        id: 7,
         skills: 'Angular'
     }
 ]
