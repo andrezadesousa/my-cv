@@ -30,9 +30,5 @@ export const MySkills = [
     {
         id: 8,
         skills: 'SCSS'
-    },
-    {
-        id: 9,
-        skills: 'Tailwind'
-    },
+    }
 ]
