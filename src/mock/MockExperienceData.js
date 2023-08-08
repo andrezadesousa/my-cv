@@ -1,7 +1,7 @@
 export const MyExperiences = [
   {
     id: 1,
-    title: "Desenvolvedora front-end Jr",
+    title: "Desenvolvedora FullStack Jr",
     company: "Nov 2022 - Momento",
     description:
       " Atualmente, alocada em um cliente internacional (Portugal). Atuando em um projeto web como desenvolvedora Front-end com as tecnologias: Angular, Typescript e C#. Além de utilizar a metodologia ágil Scrum.",

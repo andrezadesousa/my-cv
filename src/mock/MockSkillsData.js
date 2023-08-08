@@ -26,5 +26,13 @@ export const MySkills = [
     {
         id: 7,
         skills: 'Angular'
-    }
+    },
+    {
+        id: 8,
+        skills: 'SCSS'
+    },
+    {
+        id: 9,
+        skills: 'Tailwind'
+    },
 ]

@@ -21,16 +21,16 @@ export function Home() {
           <h1 className="home__title">
             ANDREZA <b>SOUSA</b>
           </h1>
-          <h2 className="home__profession">Desenvolvedora Front-end Jr</h2>
+          <h2 className="home__profession">Desenvolvedora Front-end</h2>
         </BgGrid>
 
         <BgGrid id="home__address">
           <HomeInformation>
-            <MapPin className="home__icon"></MapPin>São Paulo - Brasil
+            <MapPin className="home__icon"></MapPin>Carapicuíba, São Paulo - Brasil
           </HomeInformation>
 
           <HomeInformation>
-            <UserCircle className="home__icon"></UserCircle> 23 anos
+            <UserCircle className="home__icon"></UserCircle> 24 anos
           </HomeInformation>
         </BgGrid>
       </div>
