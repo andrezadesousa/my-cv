@@ -13,11 +13,11 @@ export const MyExperiences = [
     description:
       "Atuei como desenvolvedora Front-end em um projeto mobile e web que utilizavam as tecnologias React e React Native. Além de utilizar a metodologia ágil Scrum.",
   },
-  {
+  /*{
     id: 3,
     title: "Business Analyst Jr",
     company: "Dez 2021 - Mai 2022",
     description:
       " Atuei como Analista de Negócios na elaboração da documentação de um dos projetos. Realizei pesquisas, analisando as operações do serviço, através de reuniões com os colaboradores, stakeholders e cliente. Ao lado dos mesmos modelei e documentei o serviço. Elaborando também o diagrama dos processos de atendimento, sempre mantendo a comunicação transparente para cumprir os prazos.",
-  },
+  },*/
 ];
