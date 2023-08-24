@@ -1,7 +1,7 @@
-# Meu Porfólio | React
+# MeuCurrículo | React
 
 ## 💻 Projeto
-- É um projeto do meu portfólio, desenvolvido em React e com conceito mobile first;
+- É um projeto do meu currículo, desenvolvido em ReactJS, dark theme e com conceito mobile first;
 - Está sempre em constante evolução, pois, procuro criar e aprimorar, com novos components e informações;
 - Aplico conhecimentos que estou adquirindo por meio de cursos e bootcamps;
 - Procuro tornar o layout mais atrativo visualmente, sempre buscando novas formas para isso.
